@@ -1,0 +1,31 @@
+@media (max-width:1100px)  {
+
+    header{
+        flex-direction: column;
+    
+        nav{
+            display: none;
+        }
+
+        a{
+            background: transparent;
+        }
+    }    
+}
+
+
+
+@media (max-width:400px)  {
+
+    *{
+        padding: 1rem 0;
+    }
+
+    header{
+        flex-direction: column;
+    
+        input{
+            width: 12rem;
+        }
+    }    
+}
